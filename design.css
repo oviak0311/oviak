@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #fff;
+    width: 100%;
+    font-family: Lexend,
+        sans-serif;
+
+}
+
+
+.menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 20px;
+    color: #000000;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+
+
+nav {
+    background: #ffffff;
+    padding: 10px;
+    text-align: right;
+    float: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+
+.col1 {
+    grid-column-end: span 1;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.col2 {
+    grid-column-end: span 2;
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+.col3 {
+    grid-column-end: span 3;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.col4 {
+    grid-column-end: span 4;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.col5 {
+    grid-column-end: span 5;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.col6 {
+    grid-column-end: span 6;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.col12 {
+    grid-column-end: span 12;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.col12header {
+    grid-column-end: span 12;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #fff;
+
+}
+
+.form {
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 20px;
+    color: #ffffff;
+    background: #81d4fa;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.homepageimg {
+    height: 87%;
+    width: 100%;
+}
+
+.col12center {
+    grid-column-end: span 12;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgcenter {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+
+}
+
+.centerText {
+    text-align: center;
+    align-items: center;
+    font-weight: normal;
+
+
+}
+
+.bigfont {
+    font-size: 1.5em;
+}
+
+
+
+
+.col12footer {
+    grid-column-end: span 12;
+    text-align: right;
+    padding: 10px;
+    background: #ffffff;
+    height: 10vh
+}
+
+footer {
+    grid-column-end: span 12;
+    text-align: right;
+    padding: 10px;
+    background: #ffffff;
+    height: 10vh
+}
+
+
+.imgcenter1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 15%;
+
+}
+
+.bigfont1 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+
+
+
+.role {
+    color: #0f2f76;
+
+}
+
+
+@media screen and (max-width: 430px) {
+    [class*="col"] {
+        grid-column-end: span 12;
+        /* Make all columns span full width */
+    }
+
+    .col4,
+    .col5 {
+        grid-column: span 12;
+    }
+
+    .col1 {
+        display: none;
+        /* Hide the empty column for smaller devices */
+    }
+
+
+
+}

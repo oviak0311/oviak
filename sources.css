@@ -1,0 +1,20 @@
+.active {
+    /* ^ https://www.reddit.com/r/HTML/comments/i7w71g/how_do_i_make_my_navigation_bar_highlight_which/ */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 20px;
+    color: #81d4fa;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+.logo {
+    /* https://stackoverflow.com/questions/70496139/want-to-add-an-icon-in-navbar */
+    float: left;
+    width: 7%;
+
+}
